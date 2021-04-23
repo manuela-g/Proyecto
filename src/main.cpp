@@ -24,7 +24,7 @@ void loop() {
   /* float raw_signal = ktc.readCelsius(); */
   //raw_signal = ktc.readFahrenheit();
 
-  int processed_signal = selector.switche(raw_signal);
+  int processed_signal = Selector.switche(raw_signal);
   //int processed_signal = transformator(raw_signal);
   Serial.print(processed_signal);
 
