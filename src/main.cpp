@@ -1,14 +1,13 @@
 //MEDIDOR DE TEMPERARTURA CON MAX6675
 //MANUELA GOMEZ MESA
 #include <Arduino.h>
-#include <string>
-#include <iostream> 
-/*#include <aggregator.h>
-#include <salida.h>
+#include <aggregator.h>
+#include <selector.h>
+#i/* nclude <salida.h>
 #include <transformator.h>
 #include <max6675.h>
-#include <selector.h>
-#include <inicio.h> */
+
+#include <inicio.h>  */
 
 //AnalogSensor sensor = AnalogSensor(0x7E, A0);
 //DigitalSensor dsensor = DigitalSensor(0x7F, 4);

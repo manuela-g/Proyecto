@@ -1,16 +1,19 @@
-#include <Arduino.h>
-#include <Transormator.h>
 #ifndef SELECTOR_H
 #define SELECTOR_H
-
+#include <Arduino.h>
+#include <Tipo.h>
+void setup(){
+  int pinon = 2;
+  int pinoff = 3;
+  int pinmid = 4;
+}
 class Selector {
 private:
-  Selector(raw_signal);
-  pinMode(pinon, INPUT);
-  pinMode(pinmid, INPUT);
-  pinMode(pinoff, INPUT);
-  selector(raw_signal);
-public:
+  Selector(int raw_signal);
+  pinMode(int pinon, INPUT);
+  pinMode(int pinmid, INPUT);
+  pinMode(int pinoff, INPUT);
+  public:
   raw_signal;
   float switche;
   int estaon = digitalRead(pinon);
@@ -32,7 +35,7 @@ Selector::switche(raw_signal)
     unidades = "Celcius" 
     } 
 }
-
+#endif
 
 
 /* void setup() {

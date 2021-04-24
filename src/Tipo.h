@@ -6,9 +6,6 @@
 
 using namespace std;
 class Tipo {
-	private:
-  		
-  
 	public:
  		string unidades; 
  		int respuesta;
@@ -32,3 +29,4 @@ class Tipo {
  	cout << calculo_farenheit.unidades << " " <<  						calculo_farenheit.respuesta;
  	return 0;
 }
+#endif
