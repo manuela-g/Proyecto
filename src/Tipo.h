@@ -1,7 +1,7 @@
 #ifndef TIPO_H
 #define TIPO_H
-/* #include <string>
-#include <iostream> */
+#include <string>
+#include <iostream> 
 #include <Arduino.h>
 
 using namespace std;

@@ -1,6 +1,8 @@
 //MEDIDOR DE TEMPERARTURA CON MAX6675
 //MANUELA GOMEZ MESA
 #include <Arduino.h>
+#include <string>
+#include <iostream> 
 /*#include <aggregator.h>
 #include <salida.h>
 #include <transformator.h>
@@ -28,10 +30,10 @@ void loop() {
   //int processed_signal = transformator(raw_signal);
   Serial.print(processed_signal);
 
- /*  salida(processed_signal);
+ /*  salida(processed_signal);*/
   float processed_signal = aggregator(raw_signal);
   
-  if (media > 35)
+ /* if (media > 35)
   {
     digitalWrite(led , HIGH);   
     delay(500);                   

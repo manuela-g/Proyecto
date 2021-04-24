@@ -1,9 +1,7 @@
-  
+/*   
 #ifndef TRANSFORMATOR_H
 #define TRANSFORMATOR_H
-    namespace OffsetTransformator {
-float transformator(float input)
-}
+#include <Arduino.h>
 
 class tipo {
   private:
@@ -19,7 +17,7 @@ tipo::calculo_kelvin()
 tipo::calculo_farenheit()
 { respuesta = n + 32) * 1, 8; }
 tipo::calculo_celcius()
-{  respuesta = n; }
+{  respuesta = n; } */
   /* public:
    void calculo_kelvin(int n)
     {  respuesta = n + k ;  
