@@ -14,7 +14,6 @@ class Selector {
 private:
   Selector(int raw_signal);
   public:
-  raw_signal;
   float switche;
   int estaon = digitalRead(pinon);
   int estaoff = digitalRead(pinoff);
