@@ -3,7 +3,7 @@
 #include <Arduino.h>
 #include <aggregator.h>
 #include <selector.h>
-#i/* nclude <salida.h>
+/* nclude <salida.h>
 #include <transformator.h>
 #include <max6675.h>
 

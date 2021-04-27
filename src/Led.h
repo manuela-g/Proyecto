@@ -1,5 +1,6 @@
 #ifndef LED_H
 #define LED_H
+void led (int media){
 if (media > 35)
   {
     digitalWrite(led , HIGH);   
@@ -9,3 +10,6 @@ if (media > 35)
       digitalWrite(led , LOW);    
       delay(500);                  
     }
+  }
+}
+#endif

@@ -8,4 +8,5 @@ int aggregator (int input)
   media = agregator / counter;
   return = media;
   }
+ led (int media); 
   #endif 

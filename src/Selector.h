@@ -6,13 +6,13 @@ void setup(){
   int pinon = 2;
   int pinoff = 3;
   int pinmid = 4;
+  pinMode(pinon, INPUT);
+  pinMode(pinmid, INPUT);
+  pinMode(pinoff, INPUT);
 }
 class Selector {
 private:
   Selector(int raw_signal);
-  pinMode(int pinon, INPUT);
-  pinMode(int pinmid, INPUT);
-  pinMode(int pinoff, INPUT);
   public:
   raw_signal;
   float switche;
